@@ -24,7 +24,7 @@ const AccountsDashboard = () => {
         const fetchAccounts = async () => {
             try {
                 //https://zbxbyi3ztb.execute-api.us-east-1.amazonaws.com/prod/api/accounts
-                const response = await fetch('http://localhost:8080/api/accounts', {
+                const response = await fetch('https://4mmfqdd24b.execute-api.us-east-1.amazonaws.com/prod/api/accounts', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
